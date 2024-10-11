@@ -8,10 +8,9 @@ import severeStorms from "../assets/SevereStorms.jpg";
 import volcanoes from "../assets/Volcanoes.webp";
 
 const api = {
-  key: "7d380eeab13b00c8ce35fed9c3bff671",
+  key: "your-api-key", // Replace with your new API key
   base: "https://api.openweathermap.org/data/2.5/",
 };
-
 export const DisasterPage = () => {
   const [search, setSearch] = useState("");
   const [weather, setWeather] = useState({});
