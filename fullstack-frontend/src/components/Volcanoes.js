@@ -26,7 +26,7 @@ export const Volcanoes = ({ eventData, center, zoom }) => {
       <CHeader />
       <div className="map">
         <GoogleMapReact
-          bootstrapURLKeys={{ key: "AIzaSyC0U-f-bkZf62hEneCk7pCTDa9Xdm_4tTw" }}
+          bootstrapURLKeys={{ key: "your-google-api-key" }} //Replace with your Google API key
           defaultCenter={center}
           defaultZoom={zoom}
         >
